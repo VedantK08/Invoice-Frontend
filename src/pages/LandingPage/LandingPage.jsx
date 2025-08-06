@@ -212,8 +212,8 @@ useEffect(() => {
       <footer className="footer">
         <div className="container">
           <div className="footer-logo">QuickInvoice</div>
-          <p>&copy; 2025 QuickInvoice. All Rights Reserved.</p>
-          <p>Crafted with ❤️ for freelancers and small businesses.</p>
+          <p>Copyright &copy; 2025 QuickInvoice by Vedant.</p>
+          <p>All Rights Reserved.</p>
           <div className="social-links">
             <a href="#" aria-label="Twitter">
               <Twitter size={18} />
