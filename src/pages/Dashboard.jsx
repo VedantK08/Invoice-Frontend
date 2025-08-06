@@ -18,7 +18,6 @@ function Dashboard() {
     const fetchInvoices = async () => {
       try {
         const token = await getToken();
-        console.log(token);
         const response = await getAllInvoices(baseURL, token);
         setInvoices(response.data);
       } catch (error) {
