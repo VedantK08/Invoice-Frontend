@@ -86,7 +86,8 @@ const PreviewPage = () => {
       setDownloading(true);
       await generatePdfFromElement(
         previewRef.current,
-        `invoice_${Date.now()}.pdf`
+        `invoice_${Date.now()}.pdf`,
+        false
       );
     } catch (error) {
       toast.error("Failed to generate invoice.", error.message);
